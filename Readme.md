@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Алена Антиосова](https://up.htmlacademy.ru/htmlcss/27/user/1253733).
-* Наставник:  Дмитрий Варганов (https://github.com/dimaar
+* Наставник:  Дмитрий Варганов (https://github.com/dimkaar)
 
 ---
 
