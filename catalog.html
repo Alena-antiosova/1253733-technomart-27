@@ -5,48 +5,112 @@
     <title>Техномарт. Интернет-магазин строительных материалов.Каталог</title>
   </head>
   <body>
-    <header>
-      <div>
-        <img src="https://via.placeholder.com/150x100" alt="Техномарт">
-        <p>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта<br></p> 
-      </div>
-        <ul>
-          <li><button type="button">Поиск</button></li>
-          <li><a href="Tab.html">Закладки</a></li>
-          <li><a href="Basket.html">Корзина</a></li>
-          <li><a href="Order.html">Оформить заказ</a></li>
-        </ul>
-      <div>
-        <p>+7(812)555-05-55<br>г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
-      </div>
-      <ul>
-        <li><a href="Saved.html">Мои заказы</a></li>
-        <li><a href="Account.html">Личный кабинет</a></li>
-      </ul>
-      <nav>
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="Company.html">Компания</a></li>
-          <li><a href="Catalog.html">Каталог</a></li>
-          <li><a href="New.html">Новости</a></li>
-          <li><a href="Promo.html">Спецпредложение</a></li>
-          <li><a href="Delivery.html">Доставка</a></li>
-          <li><a href="Contacts.html">Контакты</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header class="page-header">
+          <section class="header-top">
+            <div class="header-top_container">
+              <ul class="header-top_items">
+                <li class="header-top_logo">
+                  <a class="header-top_link_logo" href="index.html"><img src="#" alt="Техномарт"></a>
+                </li>
+                <li class="header-top_button">
+                  <button" class="header-top_search" type="button">Поиск</button">
+                </li>
+                <li class="header-top_Tab">
+                  <a class="header-top_Tab_link" href="Tab.html">Закладки</a>
+                </li>
+                <li class="header-top_basket">
+                  <a class="header-top_basket_link"href="Basket.html">Корзина</a>
+                </li>
+                <li class="hearder-top_order">
+                  <a class="header-top_order_link" href="Order.html">Оформить заказ</a>
+                </li>
+              </ul>
+             <div>
+          </section>
+          <section class="page-header_nav-login">
+            <div class="nav-login_container">
+              <nav class="nav-login">
+                <p>Интернет магазин строительных материалов и инструментов для ремонта</p>
+                <a href="tel">+7(812)555-05-55 г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</a>
+                <ul class="nav-login_items">
+                    <li class="nav-login_button">
+                      <button class="nav-login_sing-up" type="button">Войти</button>
+                    </li>
+                    <li class="nav-login_button">
+                      <button class="nav-login_login" type="button">Регистрация</button>
+                    </li>
+                  </ul>
+              </nav>
+              <nav class="main-nav">
+                  <ul class="main-nav_items">
+                    <li class="main-nav_index">
+                      <a class="main-nav_index_link" href="index.html">Главная</a>
+                    </li>
+                    <li class="main-nav_company">
+                      <a class="main-nav_company_link" href="Company.html">Компания</a>
+                    </li>
+                    <li class="main-nav_catalog">
+                      <a class="main-nav_catalog_link" href="Catalog.html">Каталог</a>
+                    </li>
+                    <li class="main-nav_news">
+                      <a class="main-nav_new_link" href="News.html">Новости</a>
+                    </li>
+                    <li class="main-nav_promo">
+                      <a class="main-nav_promo_link" href="Promo.html">Спецпредложение</a>
+                    </li>
+                    <li class="main-nav_delivery">
+                      <a class="main-nav_delivery_link" href="Delivery.html">Доставка</a>
+                    </li>
+                    <li class="main-nav_contacts">
+                      <a class="main-nav_contacts_link" href="Contacts.html">Контакты</a>
+                    </li>
+                  </ul>
+              </nav> 
+            </div>
+          </section>
+        </header>
+   
   </body>
-  <main>
-    <h1>Перфораторы</h1>
-    <ul>
-      <li><a href="Catalog.html">Каталог</a></li>
-      <li><a href="Instrument.html">Инструмент</a></li>
-      <li>Перфораторы</li>
+  <main class="main-content">
+    <div class="main-content_breadcrumbs">
+      <h1 class="main-content_header">Перфораторы</h1>
+      <ul class="main-content_breadcrumbs_items">
+        <li class="main-content_breadcrumbs_catalog">
+          <a class="main-content_breadcrumbs_catalog_link" href="Catalog.html">Каталог</a>
+        </li>
+      <li class="main-content_breadcrumbs_instruments">
+        <a href="Instruments.html">Инструмент</a></li>
+      <li class="main-content_breadcrumbs_perforator">
+        <a class="main-content_breadcrumbs_perforator_link">Перфораторы</a>
+      </li>
     </ul>
-    <section>
-      <h2>Фильтры товаров</h2>
+    <section class="main-content_filter">
+      <div class="main-content_filter_form">
+      <h2 class="main-content_filter_header">Фильтры товаров</h2>
       <!--Здесь будет форма-->
+      </div>
+      <div class="main-content_filter_firm">
+        <h2 class="main-content_filter_firm_header">Производители</h2>
+        <ul class="main-content_filter_firm_items">
+          <li class="main-content_filter_firm_items">Bosch</li>
+          <li class="main-content_filter_firm_items">Интерскол</li>
+          <li class="main-content_filter_firm_items">Makita</li>
+          <li class="main-content_filter_firm_items">Dewalt</li>
+          <li class="main-content_filter_firm_items">Hitachi</li>
+          </ul>
+      </div>
+      <div class="main-content_filter_power">
+        <h2 class="main-content_filter_power_header">Питание</h2>
+        <ul class="main-content_filter_power_items">
+          <li class="main-content_filter_power_items">Аккумуляторные</li>
+          <li class="main-content_filter_power_items">Сетевые</li>
+        </ul>
+      </div>
+      <button class="main-content_filter_button" type="button">Показать</button>
     </section>
+
+
+    
     <section>
       <h2>Список перфораторов</h2>
       <ul>
