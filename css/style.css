@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Cuprum", PT Sans, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400px;
     color: #000000;
     background-color:#ffffff;
@@ -12,12 +12,19 @@ a{
     text-decoration: none;
 }
 
+.container{
+   margin: 0 auto;
+   width: 940px;
+}
+
 .main header{
     background-color:#f3f7f8;
+    margin-bottom: 59px;
 }
 
 .header-top{
     background-color:#293449;
+    width: 100%;
 }
 
 .header-top-menu{
@@ -28,7 +35,6 @@ a{
 .header-top-menu-order{
     background-color:#63a63e;
     color:#ffffff;
-    font-family: Cuprum;
     font-size: 17px;
     font-weight: 400;
     line-height: 18px;
@@ -42,45 +48,45 @@ a{
     background-color:#5fbb2d
 }
 
-
-
 .header-top-menu-link{
     color:#ffffff;
-    font-family: Cuprum;
     font-size: 17px;
     font-weight: 400;
     line-height: 18px;
 }
 
+.user-info-wrapper{
+   display: flex;
+}
+
 .user-info-name{
     color: #ee3643;
-    font-family: Cuprum;
     font-size: 16px;
     font-style: italic;
     line-height: 23px;
+    width: 196px;
 }
 
 .user-unfo-address{
     color: #32425c;
-    font-family: Cuprum;
-    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    display: block;
 }
 
 .user-info-phone{
     width: 144px;
-    height: 21px;
     color: #ee3643;
-    font-family: Cuprum;
     font-size: 21px;
     font-weight: 400;
     line-height: 21px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    padding: 13px 52px 11px 74px;
 }
 
 .user-list-item-link{
     color: #000000;
-    font-family: Cuprum;
     font-size: 21px;
     font-weight: 400;
     line-height: 21px;
@@ -91,20 +97,23 @@ a{
 }
 
 .main-nav{
-    background-color:#32425c;
+   background-color:#32425c;
 }
 
 .main-nav-menu-list{
     color: #ffffff;
-    font-family: Cuprum;
     font-size: 17px;
     font-weight: 400;
     line-height: 17px;
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
 }
 
 .main-nav-menu-link{
     color:#ffffff;
+    margin: 0 auto;
 }
 
 .main-nav-menu-link:hover{
@@ -117,7 +126,6 @@ a{
 
 .best-selling-header{
     color: #32425c;
-    font-family: Cuprum;
     font-size: 30px;
     font-weight: 400;
     line-height: 30px;
@@ -126,8 +134,6 @@ a{
 
 .best-selling-link{
     color: #ffffff;
-    font-family: Cuprum;
-    font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase
@@ -171,7 +177,6 @@ a{
 
 .popular-maker-header{
     color: #32425c;
-    font-family: Cuprum;
     font-size: 30px;
     font-weight: 400;
     line-height: 30px;
@@ -180,8 +185,6 @@ a{
 
 .popular-maker-wrapper a{
     color: #ffffff;
-    font-family: Cuprum;
-    font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase
@@ -197,7 +200,6 @@ a{
 
 .service-header{
     color:#000000;
-    font-family: Cuprum;
     font-size: 30px;
     line-height: 30px;
     font-weight: 400;
@@ -216,7 +218,6 @@ a{
 
 .customer-info-item{
     list-style: none;
-    font-family: Cuprum;
     font-size: 21px;
     font-weight: 700;
     line-height: 30px;
@@ -234,7 +235,6 @@ a{
 
 .delivery-header{
     color: #32425c;
-    font-family: Cuprum;
     font-size: 36px;
     font-weight: 400;
     line-height: 36px;
@@ -255,7 +255,6 @@ a{
     width: 78px;
     height: 19px;
     color: #32425c;
-    font-family: Cuprum;
     font-size: 21px;
     font-weight: 700;
     line-height: 30px;
@@ -263,7 +262,6 @@ a{
 
 .Company-info-header{
     color:#000000;
-    font-family: Cuprum;
     font-size: 30px;
     font-weight: 400;
     line-height: 30px;
@@ -279,7 +277,6 @@ a{
 }
 
 .Company-info-item{
-    font-family: Cuprum;
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
@@ -293,15 +290,12 @@ a{
 
 .Company-info-link{
     color: #000000;
-    font-family: Cuprum;
-    font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
 }
 
 .contacts-header{
-    font-family: Cuprum;
     font-size: 30px;
     font-weight: 400;
     line-height: 30px;
@@ -317,7 +311,6 @@ a{
 
 .contacts-button{
     color: #000000;
-    font-family: Cuprum;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -330,7 +323,6 @@ a{
 
 .footer-main-nav-link{
    color: #f1f5f7;
-   font-family: Cuprum;
    font-size: 18px;
    font-weight: 400;
    line-height: 24px;
@@ -342,7 +334,6 @@ a{
 
 .footer-info-text{
     color: #f3f7f9;
-    font-family: Cuprum;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px
@@ -350,7 +341,6 @@ a{
 
 .footer-info-link{
     color: #f3f7f9;
-    font-family: Cuprum;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px
@@ -358,7 +348,6 @@ a{
 
 .footer-secondary-menu-link{
     color: #ffd180;
-    font-family: Cuprum;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -374,7 +363,6 @@ a{
 
 .footer-copiright{
     color: #ffffff;
-    font-family: Cuprum;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
@@ -382,7 +370,6 @@ a{
 
 .footer-contacts-text{
     color: #000000;
-    font-family: Cuprum;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
@@ -390,13 +377,10 @@ a{
 
 .footer-contacts-link{
     color: #ffd180;
-    font-family: Cuprum;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px
 }
-
-
 
 
 
