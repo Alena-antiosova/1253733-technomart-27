@@ -37,7 +37,7 @@
             <p class="user-unfo-address">г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
               <a class="user-info-phone" href='tel: +7(812)555-05-55'>+7(812)555-05-55</a>
             </p>
-            <ul class="user-info-menu">
+          <ul class="user-info-menu">
                 <li class="user-info-menu-item">
                   <a class="user-list-item-link" href="login.html">Войти</a>
                 </li>
@@ -172,44 +172,48 @@
 
       </section>
       <section class="main-content-customer-info">
-        <di class="container">
+        <div class="container">
           <div class="main-content-service">
              <h2 class="service-header">Сервисы</h2>
               <p class="service-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
           </div>
-          <ul class="customer-info-menu">
-            <li class="customer-info-item"><button class="customer-info-button" type="button">Доставка</button></li>
-            <li class="customer-info-item"><button class="customer-info-button" type="button">Гарантия</button></li>
-            <li class="customer-info-item"><button class="customer-info-button" type="button">Кредит</button></li>
-          </ul>
-          <div class="main-content-delivery">
-            <h2 class="delivery-header">Доставка</h2>
-            <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!Ведь мы хорошо заработаем,поднимая его на ваш этаж!</p>
+          <div class="customer-info-wrapper">
+            <ul class="customer-info-menu">
+              <li class="customer-info-item"><button class="customer-info-button" type="button">Доставка</button></li>
+              <li class="customer-info-item"><button class="customer-info-button" type="button">Гарантия</button></li>
+              <li class="customer-info-item"><button class="customer-info-button" type="button">Кредит</button></li>
+            </ul>
+            <div class="main-content-delivery">
+              <h2 class="delivery-header">Доставка</h2>
+              <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!Ведь мы хорошо заработаем,поднимая его на ваш этаж!</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="main-content-Company">
         <div class="container">
-          <div class="main-content-Company-info">
-            <h2 class="Company-info-header">Компания "Техномарт"</h2>
-            <p class="Company-info-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.Мы можем доставить ваш товар в самые отдаленные точки России!Техномарт работает со многими транспортными компаниями:</p>
-            <ul class="Company-info-list">
-              <li class="Company-info-item">Деловые линии</li>
-              <li class="Company-info-item">Автотрейдинг</li>
-              <li class="Company-info-item">ЖелДор Экспедиция</li>
-              <li class="Company-info-item">
-                <a class="Company-info-link" href="Company.html">Подробнее о компании</a></li>
-            </ul>
+          <div class="main-content-Company-wrapper">
+            <div class="main-content-Company-info">
+              <h2 class="Company-info-header">Компания "Техномарт"</h2>
+              <p class="Company-info-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.<br>Мы можем доставить ваш товар в самые отдаленные точки России!<br> Техномарт работает со многими транспортными компаниями:</p>
+              <ul class="Company-info-list">
+                <li class="Company-info-item">Деловые линии</li>
+                <li class="Company-info-item">Автотрейдинг</li>
+                <li class="Company-info-item">ЖелДор Экспедиция</li>
+                <li class="Company-info-item">
+                  <a class="Company-info-link" href="Company.html">Подробнее о компании</a></li>
+               </ul>
+             </div>
+             <div class="main-content-contacts">
+               <h2 class="contacts-header">Контакты</h2>
+               <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис:</p>
+               <a href="map.html">/Как до нас добраться</a>
+               <button class="contacts-button" type="button">Заблудились? Напишите нам!</button>
+              </div>
+           </div>
           </div>
-          <div class="main-content-contacts">
-            <h2 class="contacts-header">Контакты</h2>
-            <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис:</p>
-              <a href="map.html">/Как до нас добраться</a>
-              <button class="contacts-button" type="button">Заблудились напиште нам!</button>
-          </div>
-        </div>
-      </section>
+       </section>
     </main>
 
     <footer class="main footer">
@@ -260,6 +264,7 @@
        </div>
        <div class="footer bottom">
          <div class="container">
+           <div class="footer-bottom-wrapper">
            <p class="footer-copiright">2010-2017 Компания "Техномарт".Все права защищены</p>
             <ul class="footer-socials-list">
               <li class="footer-socials-list-item">
@@ -272,6 +277,7 @@
             <div class="footer-contacts-wrapper">
               <p class="footer-contacts-text">Обратная связь:<a href="mailto:mail@htmlacademy.ru" class="footer-contacts-link">mail@htmlacademy.ru</a></p>
               <p class="footer-contacts-text">Разработано-<a href="https://htmlacademy.ru/" class="footer-contacts-link">htmlacademy.ru</a></p>
+            </div>
             </div>
           </div>
        </div>
