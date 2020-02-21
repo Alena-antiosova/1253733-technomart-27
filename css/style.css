@@ -76,10 +76,6 @@ a{
 }
    
 
-.user-info-phone{
-   
-}
-
 .user-info-name{
     display: flex;
     color: #ee3643;
@@ -92,6 +88,8 @@ a{
 }
 
 .user-unfo-address{
+    display: flex;
+    flex-direction: column-reverse;
     color: #32425c;
     font-weight: 400;
     line-height: 24px;
@@ -108,13 +106,23 @@ a{
 }
 
 .user-info-menu{
-    display: inline-block;
-    margin-right: 71px;
     padding: 0;
     margin: 0;
 }
 
-.user-list-item-link{
+.user-list-item-enter{
+    display: inline-block;
+    margin: 46px 10px 67px 69px;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.user-list-item-login{
+    display: inline-block;
+    margin-top: 46px;
+    margin-bottom: 67px;
     color: #000000;
     font-size: 21px;
     font-weight: 400;
@@ -127,24 +135,26 @@ a{
 
 .main-nav{
    background-color:#32425c;
+   min-height: 60px;
 }
 
 .main-nav-menu-list{
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 17px;
-    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 119px;
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
  
 
 .main-nav-menu-link{
-    color:#ffffff;
     display: inline-block;
-    padding: 20px 60px 26px 55px;
-   
+    color:#ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-top: 22px;
 }
 
 .main-nav-menu-link:hover{
@@ -156,6 +166,8 @@ a{
 }
 
 .slaider-block-menu{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -194,6 +206,8 @@ a{
 }
 
 .best-selling-menu{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -268,6 +282,8 @@ a{
 }
 
 .popular-maker-menu{
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -312,32 +328,34 @@ a{
 
 .customer-info-wrapper{
     display: flex;
-    justify-content: space-between;
 }
     
 
 .customer-info-menu{
-    margin-top: 74px;
-    margin-left: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .customer-info-item{
     list-style: none;
-    width: 240px;
-    height: 61px;
-    box-shadow: 0 1px 0 #ffffff, inset 0 1px 0 #ffffff;
-    background-color: #ffffff;
 }
 
 .customer-info-button{
+    box-sizing: border-box;
     font-size: 21px;
     font-weight: 700;
     line-height: 30px;
+    width: 240px;
+    background-color:#32425c;
+    color:#ffffff;
+    box-shadow: 0 1px 0 #ffffff, inset 0 1px 0 #ffffff;
 }
 
 .customer-info-button:hover{
-    background-color:#293449;
-    color: #ffffff
+    background-color:#ffffff;
+    color: #32425c
 }
 
 .customer-info-button:active{
@@ -351,6 +369,12 @@ a{
     font-size: 21px;
     font-weight: 700;
     line-height: 30px;
+}
+
+.main-content-delivery{
+    display: inline-block;
+    margin-top: 240px;
+    margin-left: 80px;
 }
 
 .delivery-header{
@@ -394,6 +418,12 @@ a{
     line-height: 24px;
     width: 519px;
 }
+
+.Company-info-list{
+    margin: 0;
+    padding: 0;
+}
+
 
 .Company-info-item{
     font-size: 18px;
